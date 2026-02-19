@@ -88,7 +88,7 @@
 }
 
 .banner-img {
-  width: 394px;
+  width: 650px;
   height: 394px;
   display: block;
   animation: float 4s ease-in-out infinite;
@@ -1207,6 +1207,13 @@
 /* Mobile Screen */
 
 @media (max-width: 768px) {
+
+  .banner-main-container {
+  margin: 60px 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  user-select: none;
+}
 
   .signin-btn {
     font-size: 13px;
